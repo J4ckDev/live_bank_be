@@ -3,6 +3,7 @@ from authAppExample.models.user        import User
 from authAppExample.models.transaction import Transaction
 from rest_framework                    import serializers
 
+
 class TransactionSerializer(serializers.ModelSerializer):
     class Meta:
         model  = Transaction
